@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: red;    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
