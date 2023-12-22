@@ -1,0 +1,89 @@
+.parallax {
+    /* The image used */
+    background-image: url('../img/background.jpg');
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home-image {
+    /***Centrage des blocs container en absolute **/
+    left: 25%;
+    position: absolute;
+}
+
+.search-menu-button {
+    text-indent: 40px;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 18px;
+    width: 900px;
+    font-family: raleway-regular;
+}
+
+.styleme {
+    padding: 1rem;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .home-image {
+        left: 0;
+        /* Changing position for mobile layout */
+        width: 100%;
+
+    }
+
+    .search-menu-button {
+        width: 100%;
+        /* Adjusting width to fit smaller screens */
+        max-width: 100%;
+        /* Ensuring it doesn't exceed the screen width */
+        box-sizing: border-box;
+        /* Including padding and border in the width */
+        margin-top: 10px;
+        /* Adjusting margin for better spacing */
+        font-size: 16px;
+        /* Reducing font size for smaller screens */
+        text-indent: 20px;
+        /* Adjusting text indent */
+        height: 40px;
+        /* Reducing height for smaller screens */
+    }
+
+    /* Additional styles for better spacing */
+    .accroche-home-visuel {
+        padding: 10px;
+    }
+
+    .search-fomations-centers {
+        margin-bottom: 5px;
+    }
+
+    .styleme {
+        width: 100%;
+    }
+}
